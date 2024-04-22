@@ -1,8 +1,9 @@
 {
-    "name": "spryker-eco/fact-finder-sdk",
+    "name": "sparhandy/fact-finder-sdk",
     "type": "library",
-    "description": "FactFinderSdk module",
+    "description": "FactFinderSdk module fork",
     "license": "MIT",
+    "version": "1.2.0",
     "require": {
         "fact-finder/fact-finder-php-library": "1.3.*",
         "php": ">=7.3",
@@ -10,7 +11,7 @@
         "spryker/category-data-feed": "^0.2.0",
         "spryker/currency": "^3.2.0",
         "spryker/kernel": "^3.30.0",
-        "spryker/locale": "^3.0.0",
+        "spryker/locale": "^3.0.0 || ^4.0.0",
         "spryker/log": "^3.0.0",
         "spryker/monolog": "^2.0.0",
         "spryker/price-product": "^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0",
@@ -62,5 +63,8 @@
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
+    },
+    "replace": {
+        "spryker-eco/fact-finder-sdk": "1.1.0"
     }
 }

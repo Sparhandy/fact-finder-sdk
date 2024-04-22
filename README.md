@@ -5,10 +5,14 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/spryker-eco/fact-finder-sdk/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/spryker-eco/fact-finder-sdk/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/spryker-eco/fact-finder-sdk/badges/build.png?b=master)](https://scrutinizer-ci.com/g/spryker-eco/fact-finder-sdk/build-status/master)
 
+## Info
+
+This is a fork of the spryker-eco/fact-finder-sdk package.
+
 ## Installation
 
 ```
-composer require spryker-eco/fact-finder-sdk
+composer require sparhandy/fact-finder-sdk
 ```
 
 ## Documentation
